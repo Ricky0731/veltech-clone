@@ -22,12 +22,15 @@ body {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+/* Logo styles */
 .navbar-brand img {
+    height: 60px;
+    max-width: 100%;
     transition: transform 0.3s ease;
 }
 
 .navbar-brand img:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .navbar-nav .nav-link {
@@ -148,6 +151,12 @@ footer {
 
     .navbar-brand img {
         height: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand img {
+        height: 35px;
     }
 }
 
