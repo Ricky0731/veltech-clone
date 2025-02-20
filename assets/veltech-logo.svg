@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+  <g>
+    <!-- Circle with emblem -->
+    <circle cx="100" cy="100" r="80" fill="#ffffff" stroke="#c41e3a" stroke-width="4"/>
+    <path d="M100 30c-38.66 0-70 31.34-70 70s31.34 70 70 70 70-31.34 70-70-31.34-70-70-70zm0 130c-33.137 0-60-26.863-60-60s26.863-60 60-60 60 26.863 60 60-26.863 60-60 60z" fill="#c41e3a"/>
+    
+    <!-- Text part -->
+    <text x="220" y="80" font-family="Times New Roman" font-size="60" fill="#c41e3a">Vel Tech</text>
+    <text x="220" y="120" font-family="Times New Roman" font-size="24" fill="#000066">Rangarajan Dr. Sagunthala</text>
+    <text x="220" y="150" font-family="Times New Roman" font-size="20" fill="#000066">R&amp;D Institute of Science and Technology</text>
+    <text x="220" y="180" font-family="Times New Roman" font-size="14" fill="#666666">(Deemed to be University Estd. u/s 3 of UGC Act, 1956)</text>
+  </g>
+</svg>
