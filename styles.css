@@ -126,6 +126,49 @@ body {
     margin-bottom: 1rem;
 }
 
+/* News & Events Section */
+.news-events .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.news-events .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.news-events .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.news-events .card-body {
+    padding: 1.5rem;
+}
+
+.news-events .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+    color: #333;
+}
+
+.news-events .card-text {
+    color: #666;
+    margin-bottom: 1.25rem;
+}
+
+.news-events .btn-primary {
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .news-events .card-img-top {
+        height: 180px;
+    }
+}
+
 /* News & Events */
 .card {
     border: none;
