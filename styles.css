@@ -46,12 +46,16 @@ body {
 /* Hero Section */
 .hero-section {
     position: relative;
-    margin-top: 80px;
+}
+
+#heroCarousel {
+    margin-top: 76px;
 }
 
 .carousel-item {
-    height: 600px;
-    overflow: hidden;
+    height: 70vh;
+    min-height: 400px;
+    background: #f8f9fa;
 }
 
 .carousel-item img {
@@ -59,43 +63,29 @@ body {
     height: 100%;
     object-fit: cover;
     object-position: center;
-    transition: opacity 0.3s ease;
-    min-height: 300px;
-    background: #f0f0f0;
-}
-
-.carousel-item img[src] {
-    opacity: 1;
-}
-
-.carousel-item img:not([src]) {
-    opacity: 0;
 }
 
 .carousel-caption {
-    bottom: 20%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+    bottom: 20%;
 }
 
-.carousel-caption h1 {
-    font-size: 3rem;
+.carousel-caption h2 {
+    color: #fff;
+    font-size: 2.5rem;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
 .carousel-caption p {
-    font-size: 1.5rem;
-    margin-bottom: 30px;
+    color: #fff;
+    font-size: 1.2rem;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-}
-
-.carousel-caption h2 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
 }
 
 /* Quick Links */
@@ -151,23 +141,25 @@ footer {
 /* Responsive Design */
 @media (max-width: 768px) {
     .carousel-item {
-        height: 400px;
-    }
-    
-    .quick-link-card {
-        margin-bottom: 1rem;
+        height: 50vh;
+        min-height: 300px;
     }
 
-    .carousel-caption h1 {
-        font-size: 2rem;
-    }
-
-    .carousel-caption p {
-        font-size: 1.2rem;
+    .carousel-caption {
+        bottom: 10%;
+        padding: 15px;
     }
 
     .carousel-caption h2 {
         font-size: 1.8rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+
+    .quick-link-card {
+        margin-bottom: 1rem;
     }
 
     .navbar-brand img {
